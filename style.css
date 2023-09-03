@@ -3,6 +3,11 @@ html {
   font-size: 15px;
 }
 
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
 body {
   margin: 0;
   background-color: lavenderblush;
@@ -10,10 +15,35 @@ body {
 
 .kontejner {
   background-color: #FFFFFF;
+  width: 50%;
+  margin: auto;
 
 }
 
-h1,
-h2 {
-  font-family: 'Playfair Display', serif;
+header {
+  background-color: lavenderblush;
+  padding-bottom: 20px;
+
+
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.uvod {
+
+  font-size: 20px;
+  text-align: center;
+
+}
+
+
+.obrazkyHome {
+
+  width: 30%;
+  margin: 10px 10px 10px 20px;
+
 }
