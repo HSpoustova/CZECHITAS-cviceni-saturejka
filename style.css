@@ -4,7 +4,13 @@ html {
 }
 
 body {
+  margin: 0;
   background-color: lavenderblush;
+}
+
+.kontejner {
+  background-color: #FFFFFF;
+
 }
 
 h1,
