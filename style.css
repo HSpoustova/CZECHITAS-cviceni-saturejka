@@ -23,19 +23,23 @@ h1 {
   width: 60%;
   margin: auto;
 
-
 }
 
 header {
   background-color: lavenderblush;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
-.logo {
-  margin-top: 20px;
-  margin-bottom: 20px;
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+
 
 .uvod {
 
@@ -47,14 +51,6 @@ header {
 .uvodniOdstavec {
 
   text-align: center;
-  display: block;
-
-
-}
-
-.odstavecPopis {
-  display: inline-block;
-  float: left;
 
 }
 
@@ -75,6 +71,20 @@ section {
 
 }
 
+.odstavecLevy {
+
+  float: left;
+  width: 45%;
+
+}
+
+
+.odstavecPravy {
+  float: right;
+  width: 45%;
+  padding-right: 5px;
+
+}
 
 
 .losos,
@@ -98,7 +108,16 @@ section {
 
 }
 
-
+button {
+  background-color: lavenderblush;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
 
 
 footer {
